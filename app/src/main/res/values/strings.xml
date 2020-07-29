@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Sudoku</string>
+    <string name="title">SUDOKU SOLVER</string>
+    <string name="dimensions">Choose grid size:</string>
+    <string name="difficulty">Choose difficulty:</string>
+    <string name="start">START GAME</string>
+    <string name="easy">Easy</string>
+    <string name="normal">Normal</string>
+    <string name="hard">Hard</string>
+    <string name="solve">SOLVE SUDOKU</string>
+    <string name="find_ans">SOLVE</string>
+    <string name="solution">Find the solution to a given Sudoku:</string>
+    <string name="clear">ERASE</string>
+    <string name="reset">RESET</string>
+</resources>

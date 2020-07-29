@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SolverActivity4x4">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        tools:ignore="ContentDescription">
+
+        <TableRow
+            android:id="@+id/Row1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000"
+            android:gravity="center"
+            android:paddingHorizontal="2dp"
+            android:paddingTop="4dp">
+
+            <ImageView
+                android:id="@+id/iv00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="1dp"
+                app:srcCompat="@drawable/background_white_big"
+                android:onClick="getSelected"/>
+
+            <ImageView
+                android:id="@+id/iv01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="3dp"
+                app:srcCompat="@drawable/background_white_big"
+                android:onClick="getSelected"/>
+
+            <ImageView
+                android:id="@+id/iv02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                app:srcCompat="@drawable/background_grey_big"
+                android:onClick="getSelected"/>
+
+            <ImageView
+                android:id="@+id/iv03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="2dp"
+                app:srcCompat="@drawable/background_grey_big"
+                android:onClick="getSelected"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000"
+            android:gravity="center"
+            android:paddingHorizontal="2dp"
+            android:paddingTop="1dp">
+
+            <ImageView
+                android:id="@+id/iv10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="1dp"
+                app:srcCompat="@drawable/background_white_big"
+                android:onClick="getSelected"/>
+
+            <ImageView
+                android:id="@+id/iv11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="3dp"
+                app:srcCompat="@drawable/background_white_big"
+                android:onClick="getSelected"/>
+
+            <ImageView
+                android:id="@+id/iv12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                app:srcCompat="@drawable/background_grey_big"
+                android:onClick="getSelected"/>
+
+            <ImageView
+                android:id="@+id/iv13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="2dp"
+                app:srcCompat="@drawable/background_grey_big"
+                android:onClick="getSelected"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000"
+            android:gravity="center"
+            android:paddingHorizontal="2dp"
+            android:paddingTop="3dp">
+
+            <ImageView
+                android:id="@+id/iv20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="1dp"
+                app:srcCompat="@drawable/background_grey_big"
+                android:onClick="getSelected"/>
+
+            <ImageView
+                android:id="@+id/iv21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="3dp"
+                app:srcCompat="@drawable/background_grey_big"
+                android:onClick="getSelected"/>
+
+            <ImageView
+                android:id="@+id/iv22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                app:srcCompat="@drawable/background_white_big"
+                android:onClick="getSelected"/>
+
+            <ImageView
+                android:id="@+id/iv23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="2dp"
+                app:srcCompat="@drawable/background_white_big"
+                android:onClick="getSelected"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000"
+            android:gravity="center"
+            android:paddingHorizontal="2dp"
+            android:paddingTop="1dp"
+            android:paddingBottom="4dp">
+
+            <ImageView
+                android:id="@+id/iv30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="1dp"
+                app:srcCompat="@drawable/background_grey_big"
+                android:onClick="getSelected"/>
+
+            <ImageView
+                android:id="@+id/iv31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="3dp"
+                app:srcCompat="@drawable/background_grey_big"
+                android:onClick="getSelected"/>
+
+            <ImageView
+                android:id="@+id/iv32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                app:srcCompat="@drawable/background_white_big"
+                android:onClick="getSelected"/>
+
+            <ImageView
+                android:id="@+id/iv33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="2dp"
+                app:srcCompat="@drawable/background_white_big"
+                android:onClick="getSelected"/>
+        </TableRow>
+    </TableLayout>
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+        app:layout_constraintVertical_bias="0.25"
+        tools:ignore="HardcodedText">
+
+        <Button
+            android:id="@+id/btn1"
+            android:tag="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle"
+            android:onClick="setNumber"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:tag="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle"
+            android:onClick="setNumber"/>
+
+        <Button
+            android:id="@+id/btn3"
+            android:tag="3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle"
+            android:onClick="setNumber"/>
+
+        <Button
+            android:id="@+id/btn4"
+            android:tag="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle"
+            android:onClick="setNumber"/>
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/btnSolve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/find_ans"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:onClick="calculate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow"
+        app:layout_constraintVertical_bias="0.25"/>
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clear"
+        android:textStyle="bold"
+        android:onClick="clearCell"
+        app:layout_constraintBottom_toBottomOf="@+id/btnSolve"
+        app:layout_constraintEnd_toStartOf="@+id/btnSolve"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnSolve" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset"
+        android:textStyle="bold"
+        android:onClick="resetGrid"
+        app:layout_constraintBottom_toBottomOf="@+id/btnSolve"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnSolve"
+        app:layout_constraintTop_toTopOf="@+id/btnSolve" />
+</androidx.constraintlayout.widget.ConstraintLayout>

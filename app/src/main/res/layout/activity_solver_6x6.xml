@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SolverActivity6x6">
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        tools:ignore="ContentDescription">
+
+        <TableRow
+            android:id="@+id/Row1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000"
+            android:gravity="center"
+            android:paddingHorizontal="2dp"
+            android:paddingTop="4dp">
+
+            <ImageView
+                android:id="@+id/iv00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="1dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_white_med" />
+
+            <ImageView
+                android:id="@+id/iv01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_white_med" />
+
+            <ImageView
+                android:id="@+id/iv02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="3dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_white_med" />
+
+            <ImageView
+                android:id="@+id/iv03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_grey_med" />
+
+            <ImageView
+                android:id="@+id/iv04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_grey_med" />
+
+
+            <ImageView
+                android:id="@+id/iv05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="2dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_grey_med" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000"
+            android:gravity="center"
+            android:paddingHorizontal="2dp"
+            android:paddingTop="1dp">
+
+            <ImageView
+                android:id="@+id/iv10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="1dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_white_med" />
+
+            <ImageView
+                android:id="@+id/iv11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_white_med" />
+
+            <ImageView
+                android:id="@+id/iv12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="3dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_white_med" />
+
+            <ImageView
+                android:id="@+id/iv13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_grey_med" />
+
+            <ImageView
+                android:id="@+id/iv14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_grey_med" />
+
+
+            <ImageView
+                android:id="@+id/iv15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="2dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_grey_med" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000"
+            android:gravity="center"
+            android:paddingHorizontal="2dp"
+            android:paddingTop="3dp">
+
+            <ImageView
+                android:id="@+id/iv20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="1dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_grey_med" />
+
+            <ImageView
+                android:id="@+id/iv21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_grey_med" />
+
+
+            <ImageView
+                android:id="@+id/iv22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="3dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_grey_med" />
+
+            <ImageView
+                android:id="@+id/iv23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_white_med" />
+
+            <ImageView
+                android:id="@+id/iv24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_white_med" />
+
+            <ImageView
+                android:id="@+id/iv25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="2dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_white_med" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000"
+            android:gravity="center"
+            android:paddingHorizontal="2dp"
+            android:paddingTop="1dp">
+
+            <ImageView
+                android:id="@+id/iv30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="1dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_grey_med" />
+
+            <ImageView
+                android:id="@+id/iv31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_grey_med" />
+
+
+            <ImageView
+                android:id="@+id/iv32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="3dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_grey_med" />
+
+            <ImageView
+                android:id="@+id/iv33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_white_med" />
+
+            <ImageView
+                android:id="@+id/iv34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_white_med" />
+
+            <ImageView
+                android:id="@+id/iv35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="2dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_white_med" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000"
+            android:gravity="center"
+            android:paddingHorizontal="2dp"
+            android:paddingTop="3dp">
+
+            <ImageView
+                android:id="@+id/iv40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="1dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_white_med" />
+
+            <ImageView
+                android:id="@+id/iv41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_white_med" />
+
+            <ImageView
+                android:id="@+id/iv42"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="3dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_white_med" />
+
+            <ImageView
+                android:id="@+id/iv43"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_grey_med" />
+
+            <ImageView
+                android:id="@+id/iv44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_grey_med" />
+
+
+            <ImageView
+                android:id="@+id/iv45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="2dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_grey_med" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Row6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000"
+            android:gravity="center"
+            android:paddingHorizontal="2dp"
+            android:paddingTop="1dp"
+            android:paddingBottom="4dp">
+
+            <ImageView
+                android:id="@+id/iv50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="1dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_white_med" />
+
+            <ImageView
+                android:id="@+id/iv51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_white_med" />
+
+            <ImageView
+                android:id="@+id/iv52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="3dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_white_med" />
+
+            <ImageView
+                android:id="@+id/iv53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_grey_med" />
+
+            <ImageView
+                android:id="@+id/iv54"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="1dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_grey_med" />
+
+
+            <ImageView
+                android:id="@+id/iv55"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="2dp"
+                android:onClick="getSelected"
+                app:srcCompat="@drawable/background_grey_med" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout2"
+        app:layout_constraintVertical_bias="0.2"
+        tools:ignore="ButtonStyle">
+
+        <Button
+            android:id="@+id/btn1"
+            android:tag="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:onClick="setNumber"
+            tools:ignore="HardcodedText"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:tag="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:onClick="setNumber"
+            tools:ignore="HardcodedText"/>
+
+        <Button
+            android:id="@+id/btn3"
+            android:tag="3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:onClick="setNumber"
+            tools:ignore="HardcodedText"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow"
+        tools:ignore="ButtonStyle">
+
+        <Button
+            android:id="@+id/btn4"
+
+            android:tag="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:onClick="setNumber"
+            tools:ignore="HardcodedText"/>
+
+        <Button
+            android:id="@+id/btn5"
+            android:tag="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:onClick="setNumber"
+            tools:ignore="HardcodedText"/>
+
+        <Button
+            android:id="@+id/btn6"
+            android:tag="6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:onClick="setNumber"
+            tools:ignore="HardcodedText"/>
+    </TableRow>
+
+    <Button
+        android:id="@+id/btnSolve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="calculate"
+        android:text="@string/find_ans"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow2"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clearCell"
+        android:text="@string/clear"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnSolve"
+        app:layout_constraintEnd_toStartOf="@+id/btnSolve"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnSolve" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="resetGrid"
+        android:text="@string/reset"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/btnSolve"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnSolve"
+        app:layout_constraintTop_toTopOf="@+id/btnSolve" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="col_correct">#B4F399</color>
+    <color name="col_error">#F67B7B</color>
+    <color name="col_grey">#CACACA</color>
+    <color name="col_selected">#99C6F3</color>
+    <color name="col_white">#EFEFEF</color>
+</resources>
